@@ -1,6 +1,6 @@
 ---
 name: Rédaction structurée
-description: Aide à rédiger des emails et rapports en utilisant les templates Wesype. Active ce skill dès qu'un utilisateur demande de rédiger un email professionnel ou un rapport structuré.
+description: Aide à rédiger des emails et rapports en utilisant les templates Wesype. Active ce skill dès qu'un utilisateur demande de rédiger un email professionnel ou un rapport structuré .
 ---
 
 # Rédaction structurée — Guidelines
