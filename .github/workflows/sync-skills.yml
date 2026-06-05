@@ -19,4 +19,3 @@ jobs:
           workspace-id: ${{ vars.DUST_WORKSPACE_ID }}
           api-key: ${{ secrets.DUST_API_KEY }}
           region: EU
-```
