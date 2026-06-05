@@ -1,1 +1,22 @@
+name: Sync Skills to Dust
 
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "skills/**"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync skills
+        uses: dust-tt/dust-github-action@v1
+        with:
+          method: upsert-skills
+          workspace-id: ${{ vars.DUST_WORKSPACE_ID }}
+          api-key: ${{ secrets.DUST_API_KEY }}
+          region: EU
+```
